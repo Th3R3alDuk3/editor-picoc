@@ -2,7 +2,7 @@
   
 This is an online **C-editor** that uses a **client-side C-interpreter**.  
 
-[!editor-picoc](public/index.gif "editor-picoc")
+![editor-picoc](public/index.gif "editor-picoc")
   
 In this project some great modules like [picoc-js](https://www.npmjs.com/package/picoc-js) or [monaco-editor](https://microsoft.github.io/monaco-editor/) were used.  
 Because it is small and suitable for our requirements, we opted for the [picoc](https://gitlab.com/zsaleeba/picoc) interpreter from *Zik Saleeba*.  
