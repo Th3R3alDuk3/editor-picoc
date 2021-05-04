@@ -1,7 +1,7 @@
 {
   "name": "pico-OCI",
   "version": "1.0.0",
-  "description": "online C-editor that uses a C-interpreter recompiled to WASM",
+  "description": "online C-editor that uses a client-side C-interpreter recompiled to WASM",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"

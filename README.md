@@ -2,7 +2,7 @@
 
 pico - `O`nline `C` `I`nterpreter  
   
-This is an online **C-editor** that uses a **client side C-interpreter** recompiled to WASM.  
+This is an online **C-editor** that uses a **client-side C-interpreter** recompiled to WASM.  
   
 The project was equipped with some useful plugins such as [picoc-js](https://www.npmjs.com/package/picoc-js) or the [Monaco-Editor](https://microsoft.github.io/monaco-editor/) from Microsoft.  
 We use the [picoc interpreter](https://gitlab.com/zsaleeba/picoc) from Zik Saleeba because it is best suited for our purposes.  

@@ -14,14 +14,14 @@ require(['vs/editor/editor.main'], function () {
 
     var editor = document.getElementById('editor');
 
-    window.ociEditor = monaco.editor.create(editor, {                        
+    window.picocEditor = monaco.editor.create(editor, {                        
         language: 'c',
         theme: 'vs-dark',
         value: [
             '#include <stdio.h>',
             '',
             'void main() {', 
-            '   printf("Hello world!");',
+            '   printf("Hello world!\\n");',
             '}'
         ].join('\n'),
     });
@@ -33,9 +33,7 @@ require(['vs/editor/editor.main'], function () {
     monaco.languages.setMonarchTokensProvider('console', {
         tokenizer: {
             root: [
-                [/(\[stderr\])(.*)/, 'stderr'],
-                [/(\[stdout\])(.*)/, 'stdout'],
-                [/(\[output\])(.*)/, 'output'],
+                [/file.c:(\d+):(\d+) (.*)/, 'error']
             ]
         }
     });
@@ -44,9 +42,7 @@ require(['vs/editor/editor.main'], function () {
         base: 'vs-dark',
         inherit: true,
         rules: [
-            {token: 'stderr', foreground: '#ce9178'},
-            {token: 'stdout', foreground: '#32cd32'},
-            {token: 'output', foreground: '#569cd6'}
+            {token: 'error', foreground: '#ce9178'}
         ]
     });
 
@@ -54,10 +50,10 @@ require(['vs/editor/editor.main'], function () {
 
     var output = document.getElementById('output');
 
-    window.ociOutput = monaco.editor.create(output, {
+    window.picocOutput = monaco.editor.create(output, {
         language: 'console',
         theme: 'console',
-        value: '[output] ↓\n...',
+        value: '...',
         folding: false,
         lineNumbers: 'off',
         lineDecorationsWidth: 0,
@@ -75,7 +71,12 @@ window.onresize = () => {
 /* PICO-JS */
 
 function run() {
-    picocjs.runC(window.ociEditor.getValue(), (output) => { 
-        window.ociOutput.setValue(output);
+    window.picocOutput.setValue('');
+    picocjs.runC(
+        window.picocEditor.getValue(), (output) => {
+        window.picocOutput.setValue(
+            window.picocOutput.getValue() + 
+            output + '\n'
+        );
     });
 }
