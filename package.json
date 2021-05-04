@@ -1,14 +1,14 @@
 {
-  "name": "pico-OCI",
+  "name": "editor-picoc",
   "version": "1.0.0",
-  "description": "online C-editor that uses a client-side C-interpreter recompiled to WASM",
+  "description": "online C-editor that uses a client-side C-interpreter",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Th3R3alDuk3/pico-OCI.git"
+    "url": "git+https://github.com/Th3R3alDuk3/editor-picoc.git"
   },
   "keywords": [
     "nodejs",
@@ -19,9 +19,9 @@
   "author": "Paul Graff",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Th3R3alDuk3/pico-OCI/issues"
+    "url": "https://github.com/Th3R3alDuk3/editor-picoc/issues"
   },
-  "homepage": "https://github.com/Th3R3alDuk3/pico-OCI#readme",
+  "homepage": "https://github.com/Th3R3alDuk3/editor-picoc#readme",
   "dependencies": {
     "express": "^4.17.1",
     "monaco-editor": "^0.23.0",

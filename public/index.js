@@ -12,9 +12,9 @@ require.config({
 
 require(['vs/editor/editor.main'], function () {
 
-    var editor = document.getElementById('editor');
+    var picocEditor = document.getElementById('picocEditor');
 
-    window.picocEditor = monaco.editor.create(editor, {                        
+    window.picocEditor = monaco.editor.create(picocEditor, {                        
         language: 'c',
         theme: 'vs-dark',
         value: [
@@ -48,9 +48,9 @@ require(['vs/editor/editor.main'], function () {
 
     /* SET MONACO OUTPUT */
 
-    var output = document.getElementById('output');
+    var picocOutput = document.getElementById('picocOutput');
 
-    window.picocOutput = monaco.editor.create(output, {
+    window.picocOutput = monaco.editor.create(picocOutput, {
         language: 'console',
         theme: 'console',
         value: '...',
@@ -68,7 +68,7 @@ window.onresize = () => {
     window.location.reload();
 }
 
-/* PICO-JS */
+/* PICOC-JS */
 
 function run() {
     window.picocOutput.setValue('');

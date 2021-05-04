@@ -58,7 +58,7 @@ body {
     color: #006400;
 }
 
-#editor, #output {
+#picocEditor, #picocOutput {
     /* size */
     height: 100%;
     /* border */
