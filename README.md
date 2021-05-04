@@ -12,7 +12,7 @@ Feel free to use a different interpreter or programming language. You hardly hav
 
 ## start nodejs
 
-Install all dependencies and start nodejs.
+Install all required dependencies and start nodejs.
 
 ```
 npm install
