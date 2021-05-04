@@ -2,7 +2,7 @@
   
 This is an online **C-editor** that uses a **client-side C-interpreter**.  
   
-[DEMO](https://editor-picoc.glitch.me/)  
+Here's a little [DEMO](https://editor-picoc.glitch.me/).  
   
 ![editor-picoc](public/index.gif "editor-picoc")
   
