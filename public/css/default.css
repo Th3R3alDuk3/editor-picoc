@@ -1,4 +1,4 @@
-body {                
+body {
     /* font */
     font-family: Consolas, "Courier New", monospace;
     /* color */
@@ -6,14 +6,17 @@ body {
     color: #fff;
 }
 
-.flex-container {          
+/**/
+
+.flex-container {
     /* flex */
     display: flex;
-    flex-direction: column;   
+    flex-basis: auto;
+    flex-direction: column;
     /* size */
     height: calc(100vh - 60px);
     /* distance */
-    margin: 20px;  
+    margin: 20px;
     padding: 10px;
 }
 
@@ -24,14 +27,30 @@ body {
     padding: 15px 5px;
 }
 
-.flex-item2 {       
+.flex-item2 {
     /* size */
     flex: auto;
 }
 
-.flex-item3 {    
+.flex-item3 {
     /* size */
     height: 300px;
+}
+
+/**/
+
+#select {
+    /* color */
+    background-color: #1e1e1e;
+    color: #32cd32;
+    /* position */
+    float: right;
+    /* distance */
+    padding: 5px 10px;
+    margin-left: 20px;
+    /* border */
+    border: 1px solid #393939;
+    border-radius: 3px;
 }
 
 .button {
@@ -48,8 +67,8 @@ body {
     border-radius: 3px;
 }
 
-.button:hover {       
-    /* color */         
+.button:hover {
+    /* color */
     color: #228b22;
 }
 
@@ -58,7 +77,9 @@ body {
     color: #006400;
 }
 
-#picocEditor, #picocOutput {
+/**/
+
+#editor, #output {
     /* size */
     height: 100%;
     /* border */

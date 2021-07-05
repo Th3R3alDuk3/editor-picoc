@@ -1,19 +1,20 @@
-# editor-picoc
+# editor-client-side (picoc)
   
-This is an online **C-editor** that uses a **client-side C-interpreter**.  
+This is an online **C-editor** that uses a **client-side compiler (picoc)**.  
 
-![editor-picoc](public/index.gif "editor-picoc")
+![editor-client-side](preview.gif "editor-client-side")
   
-In this project some great modules like [picoc-js](https://www.npmjs.com/package/picoc-js) or [monaco-editor](https://microsoft.github.io/monaco-editor/) were used.  
-Because it is small and suitable for our requirements, we opted for the [picoc](https://gitlab.com/zsaleeba/picoc) interpreter from *Zik Saleeba*.  
-Special thanks to *Krithik Rao* for recompiling [picoc](https://gitlab.com/zsaleeba/picoc) to WASM. 
+I used some great techniques and frameworks such as *Emscripten*, [picoc-js](https://www.npmjs.com/package/picoc-js) and [Monaco](https://microsoft.github.io/monaco-editor/) in this project.  
+Because it is small and suitable for our requirements, we opted for the [picoc](https://gitlab.com/zsaleeba/picoc) interpreter from *Zik Saleeba*. Special thanks to *Krithik Rao* for recompiling *picoc* to WASM.  
+Feel free to customize the interpreters or programming languages that have been used.
+
+## installation
+
+Install the following javascript runtime and container virtualization tool.
+- [Node.js](https://nodejs.org/en/download/)
   
-Feel free to use a different interpreter or programming language. You hardly have to change anything!
-
-## start nodejs
-
-Install all required dependencies and start nodejs.
-
+Download all required dependencies and start *Node.js*.
+  
 ```
 npm install
 npm start

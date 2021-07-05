@@ -1,7 +1,7 @@
 {
-  "name": "editor-picoc",
+  "name": "editor-client-side",
   "version": "1.0.0",
-  "description": "online C-editor that uses a client-side C-interpreter",
+  "description": "online C-editor that uses a client-side compiler (picoc)",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
@@ -11,8 +11,9 @@
     "url": "git+https://github.com/Th3R3alDuk3/editor-picoc.git"
   },
   "keywords": [
-    "picoc",
-    "picoc-js",
+    "nodejs",
+    "websockets",
+    "picoc", "picoc-js",
     "monaco-editor"
   ],
   "author": "Paul Graff",
@@ -23,7 +24,7 @@
   "homepage": "https://github.com/Th3R3alDuk3/editor-picoc#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "monaco-editor": "^0.23.0",
-    "picoc-js": "^1.0.12"
+    "picoc-js": "^1.0.12",
+    "monaco-editor": "^0.23.0"
   }
 }
