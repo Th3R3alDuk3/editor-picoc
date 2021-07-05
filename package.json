@@ -1,5 +1,5 @@
 {
-  "name": "editor-client-side",
+  "name": "editor-picoc",
   "version": "1.0.0",
   "description": "online C-editor that uses a client-side compiler (picoc)",
   "main": "app.js",
