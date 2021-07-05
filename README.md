@@ -3,6 +3,7 @@
 This is an online **C-editor** that uses a **client-side compiler (picoc)**.  
   
 [Demo](https://editor-picoc.glitch.me/)  
+  
 ![editor-client-side](preview.gif "editor-client-side")  
   
 I used some great techniques and frameworks such as *Emscripten*, [picoc-js](https://www.npmjs.com/package/picoc-js) and [Monaco](https://microsoft.github.io/monaco-editor/) in this project.  
