@@ -7,8 +7,8 @@ This is an online **C-editor** that uses a **client-side compiler (picoc)**.
 ![editor-client-side](preview.gif "editor-client-side")  
   
 I am using some well-known toolchains and frameworks such as [emscripten](https://emscripten.org/), [picoc-js](https://www.npmjs.com/package/picoc-js) or [monaco-editor](https://microsoft.github.io/monaco-editor/) in this project.  
-Because it is small and suitable for our requirements, we opted for the [picoc](https://gitlab.com/zsaleeba/picoc) interpreter from *Zik Saleeba*. Special thanks to *Krithik Rao* for recompiling *picoc* to WASM.  
-Feel free to customize the interpreters or programming languages that have been used.
+Because of is small size, the [picoc](https://gitlab.com/zsaleeba/picoc) interpreter from *Zik Saleeba* is suitable for our purposes.  
+Special thanks to *Krithik Rao* for recompiling *picoc* to WASM = [picoc-js]().  
 
 ## installation
 
