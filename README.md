@@ -12,7 +12,7 @@ Feel free to customize the interpreters or programming languages that have been 
 
 ## installation
 
-Install [node.js](https://nodejs.org) and download all dependencies.  
+Install [node.js](https://nodejs.org) and download all [dependencies](packages.json).  
   
 ```
 npm install
