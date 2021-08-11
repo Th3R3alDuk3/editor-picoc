@@ -2,7 +2,7 @@
 
 This is an online **C-editor** that uses a **client-side compiler (picoc)**.  
   
-[Demo](https://editor-picoc.glitch.me/)  
+[DEMO](https://editor-picoc.glitch.me/)  
   
 ![editor-client-side](preview.gif "editor-client-side")  
   
