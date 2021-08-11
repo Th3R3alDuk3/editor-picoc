@@ -12,10 +12,7 @@ Feel free to customize the interpreters or programming languages that have been 
 
 ## installation
 
-Install the following application.
-- [Node.js](https://nodejs.org/en/download/)
-  
-Download all required dependencies and start *Node.js*.
+Install [node.js](https://nodejs.org) and download all dependencies.  
   
 ```
 npm install
