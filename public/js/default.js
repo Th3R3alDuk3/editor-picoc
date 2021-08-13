@@ -6,7 +6,7 @@
 
 function run() {
 
-    window.output.setValue('');
+    window.output.setValue("");
 
     picocjs.runC(
         window.editor.getValue(), output => {            
