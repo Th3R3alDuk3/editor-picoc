@@ -11,7 +11,7 @@ function run() {
     picocjs.runC(
         window.editor.getValue(), output => {            
             window.output.setValue(
-                window.output.getValue() + output + '\n'
+                window.output.getValue() + output + "\n"
             );            
         }
     );

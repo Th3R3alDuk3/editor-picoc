@@ -1,6 +1,6 @@
 # editor-picoc
 
-This is an online **C-editor** that uses a **client-side compiler (picoc)**.  
+This is an online **C-editor** that uses a **client-side interpreter (picoc)**.  
   
 [DEMO](https://editor-picoc.glitch.me/)  
   

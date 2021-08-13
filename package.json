@@ -1,7 +1,7 @@
 {
   "name": "editor-picoc",
   "version": "1.0.0",
-  "description": "online C-editor that uses a client-side compiler (picoc)",
+  "description": "online C-editor that uses a client-side interpreter (picoc)",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
@@ -12,7 +12,6 @@
   },
   "keywords": [
     "nodejs",
-    "websockets",
     "picoc", "picoc-js",
     "monaco-editor"
   ],

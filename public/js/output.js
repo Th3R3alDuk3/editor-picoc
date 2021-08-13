@@ -30,7 +30,7 @@ require(["vs/editor/editor.main"], function () {
             base: "vs-dark",
             inherit: true,
             rules: [
-                {token: "error", foreground: "#ce9178"}
+                { token: "error", foreground: "#ce9178" }
             ]
         }
     );
